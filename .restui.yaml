@@ -1,3 +1,4 @@
 name: "Test"
 swaggers:
   - "swagger.yaml"
+  - "swagger2.yaml"
