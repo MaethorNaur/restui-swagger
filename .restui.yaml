@@ -1,5 +1,4 @@
-name: "Test3"
+name: "Test"
 swaggers:
   - "swagger.yaml"
   - "swagger2.yaml"
-  - "swagger3.yaml"
