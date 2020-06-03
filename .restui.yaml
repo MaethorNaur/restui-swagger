@@ -1,5 +1,5 @@
 name: "Test"
-swaggers:
+specifications:
   - "swagger.yaml"
   - "swagger2.yaml"
   - "swagger3.yaml"
