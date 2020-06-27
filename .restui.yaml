@@ -2,4 +2,4 @@ name: "Test"
 specifications:
   - "swagger.yaml"
   - "swagger2.yaml"
-  - "swagger3.yaml"
+  - "swagger.json"
