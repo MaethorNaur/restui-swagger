@@ -1,5 +1,5 @@
 name: "Test"
 specifications:
   - "swagger.yaml"
-  - "swagger2.yaml"
+  - "swagger2.json"
   - "swagger.json"
