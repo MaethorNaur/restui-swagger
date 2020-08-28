@@ -12,7 +12,7 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers:
-  - url: {{scheme}}://{{environment}}.swagger.io/api
+  - url: '{scheme}://{environment}.swagger.io/api'
     variables:
       scheme:
         enum:
@@ -22,6 +22,7 @@ servers:
       environment:
         enum:
           - petstore
+          - editor
         default: petstore
 paths:
   /pets:
