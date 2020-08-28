@@ -12,7 +12,17 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 servers:
-  - url: http://petstore.swagger.io/api
+  - url: {{scheme}}://{{environment}}.swagger.io/api
+    variables:
+      scheme:
+        enum:
+          - http
+          - https
+        default: https
+      environment:
+        enum:
+          - petstore
+        default: petstore
 paths:
   /pets:
     get:
