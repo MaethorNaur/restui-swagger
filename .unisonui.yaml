@@ -1,0 +1,9 @@
+version: "2"
+name: "Test"
+openapi:
+  useProxy: false
+  specifications:
+    - name: "t1"
+      path: "swagger.yaml"
+    - "swagger2.json"
+    - "swagger.json"

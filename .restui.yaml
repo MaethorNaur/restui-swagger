@@ -1,6 +1,0 @@
-name: "Test"
-specifications:
-  - name: "t1"
-    path: "swagger.yaml"
-  - "swagger2.json"
-  - "swagger.json"
